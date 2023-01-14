@@ -1,113 +1,69 @@
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<title>HTML, CSS and SASS Boilerplate</title>
-		<meta
-		name="description"
-		content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
-		/>
-		<link
-		rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-		integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-		crossorigin="anonymous"
-		referrerpolicy="no-referrer"
-		/>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<style>
-		body {
-			margin:0;
-			Padding:0;
-			background:white;
-			}
-		nav{
-			width:100%;
-			background:black;
-			overflow:auto;
-			}
-			ul {
-				padding:0;
-				margin:0 0 0 150px;
-				list-style:none;
-			}
-			li {
-				float:left;
-			}
-			.logo img{
-			position:absolute;
-			margin-top:15px;
-			margin-left:10px;
-			}
-			nav a{
-				width:100px;
-				display:block;
-				padding:20px 15px;
-				text-decoration:none;
-				font-family:Arial;
-				color:#f2f2f2;
-				text-align:center;
-			}
-			nav a:hover {
-				background:purple;
-				transition:0,5s;
-				text-transform:uppercase;
-			}
-			
-			
-				
-	</style>
-	</head>
-	<body>
-		<nav class="navbar" class="navbar-item">
-		<div class="main">
-		<div class="box">
-		<div class="logo">
-		<div class="logo navbar-item">
-			<i class="fa-solid fa-bomb navbar-item"></i>
-			</div>
-		  </div>
-			<div class="field">
-			<div class="fa-solid fa-bomb navbar-item">
-				<p class="control">
-					<input class="input is-medium is-rounded" type="text" placeholder="Search a skull"/>
-				</p>
-				<p class="control">
-					<button class="button is-rounded is-medium">Search</button>
-				</p>
-			  </div>
-			</div>
-			<ul class="navbar-item">
-			<li><a href="#">Learn JS</a></li>
-			<li><a href="#">Learn PHP</a></li>
-			<li><a href="#">Learn Go</a></li>
-			<li><a href="#">Learn Java</a></li>
-			</ul>
-			<form>
-		<input type="search" name="q" placeholder="Search query"/>
-		<input type="submit" value="Go"/>
-		</form>
-		<a>
-			<i class="fa-solid fa-house"></i>
-			</a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML, CSS and SASS Boilerplate</title>
+    <meta
+      name="description"
+      content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="box">
+        <nav class="navbar">
 
-			<a>
-			<i class="fa-solid fa-comment-dots"></i>
-			</a>
+        <div class="logo">
+          <div class="logo navbar-item">
+            <i class="fa-solid fa-bomb navbar-item"></i>
+          </div>
+        </div>
+        <div class="field">
+          <div class="field has-addons navbar-item">
+          <p class="control">
+            <input
+              class="input is-medium is-rounded"
+              type="text"
+              placeholder="Search a skill"
+            />
+          </p>
+          <p class="control">
+            <button class="button is-rounded is-medium">Search</button>
+          </p>
+          </div>
+        </div>
 
-			<a>
-			<i class="fa-solid fa-suitcase"></i>
-			</a>
+        <ul class="navbar-item">
+        <li><a>
+          <i class="fa-solid fa-house"></i>
+        </a></li>
 
-			<a>
-			<i class="fa-solid fa-bell"></i>
-			</a>
+        <li><a>
+          <i class="fa-solid fa-comment-dots"></i>
+        </a></li>
 
-			<a>
-			<i class="fa-brands fa-discord"></i>
-			</a>
-			</nav>
-		</div>
-		</div>
-	</body>
-	</html>
+        <li><a>
+          <i class="fa-solid fa-suitcase"></i>
+        </a></li>
+
+        <li><a>
+          <i class="fa-solid fa-bell"></i>
+        </a></li>
+
+        <li><a>
+          <i class="fa-brands fa-discord"></i>
+        </a></li>
+        </ul>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
